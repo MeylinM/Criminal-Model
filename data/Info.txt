@@ -1,0 +1,14 @@
+# Carpeta DATA
+
+Aquí se guardan los datos utilizados durante el proyecto.
+
+Estructura esperada:
+- Personal_Victimization_Original.csv → dataset original sin modificar.
+- X_train.csv, X_test.csv → conjuntos de entrenamiento y prueba antes del escalado.
+- X_train_scaled.csv, X_test_scaled.csv → conjuntos de entrenamiento y prueba escalados.
+- y_train.csv, y_test.csv → etiquetas correspondientes a cada conjunto.
+
+Importante:
+- No modificar el dataset original.
+- Los archivos derivados deben ser generados en el notebook de EDA/preprocesamiento.
+- Indicar siempre la fecha y el responsable de la versión de cada dataset.

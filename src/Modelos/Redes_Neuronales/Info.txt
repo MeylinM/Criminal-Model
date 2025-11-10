@@ -1,0 +1,26 @@
+# Modelo: Red Neuronal (MLP)
+Responsables: Aitor y Guillermo
+
+Objetivo:
+Entrenar y comparar un modelo de red neuronal (MLP) para clasificación multiclase.
+
+Contenido del notebook:
+- Construcción de un modelo baseline (capas, neuronas, activaciones, optimizador, etc.).
+- Evaluación inicial y registro de métricas de rendimiento.
+- Al menos dos experimentos adicionales variando configuraciones (número de capas, neuronas, tasa de aprendizaje, regularización, etc.).
+- Antes de cada experimento:
+  * Formular hipótesis ("Aumentar las neuronas debería mejorar la precisión porque...").
+- Después de cada experimento:
+  * Registrar métricas y curvas de entrenamiento.
+  * Analizar si los cambios mejoran o empeoran el rendimiento.
+
+Evaluación de métricas:
+- Accuracy general
+- Recall macro y weighted
+- F1-score macro y weighted
+- Matriz de confusión multiclase (normalizada)
+
+Visualizaciones:
+- Curvas de pérdida (loss) y exactitud (accuracy) por epochs.
+- Matriz de confusión final.
+- Comparación de métricas entre baseline y experimentos.

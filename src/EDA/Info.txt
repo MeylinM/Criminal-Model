@@ -1,0 +1,19 @@
+# Carpeta EDA (Análisis Exploratorio de Datos y Preprocesamiento)
+
+Aquí se desarrollan las fases 1 y 2 del reto:
+
+FASE 1 - Análisis Exploratorio:
+- Contextualizar el problema (qué, por qué, para quién).
+- Analizar valores nulos, duplicados, outliers y correlaciones.
+- Generar al menos 3 visualizaciones relevantes (boxplot, histogramas, matriz de correlaciones).
+- Comentar técnicamente las visualizaciones (qué se observa y cómo impacta en el modelo).
+
+FASE 2 - Preprocesamiento:
+- Limpieza de datos, imputación de nulos, encoding de categóricas y escalado.
+- Guardar los siguientes archivos procesados en /data:
+  X_train.csv, X_test.csv, X_train_scaled.csv, X_test_scaled.csv, y_train.csv, y_test.csv
+- Justificar las decisiones de limpieza y transformación realizadas.
+
+Archivos principales:
+- analisis_exploratorio.ipynb
+- preprocesamiento.ipynb

@@ -1,0 +1,23 @@
+# Modelo: Regresión Logística
+Responsable: Irati
+
+Objetivo:
+Entrenar y evaluar un modelo de Regresión Logística para un problema de clasificación multiclase.
+
+Contenido del notebook:
+- Descripción breve del modelo y su aplicabilidad a clasificación multiclase.
+- Carga de los datos procesados desde la carpeta /data.
+- Entrenamiento del modelo (usar One-vs-Rest o multinomial según corresponda).
+- Ajuste de hiperparámetros (penalty, C, solver, max_iter, etc.) con GridSearchCV si aplica.
+- Evaluación de métricas:
+  * Accuracy general
+  * Recall macro y weighted
+  * F1-score macro y weighted
+  * Matriz de confusión multiclase (normalizada)
+- Visualizaciones:
+  * Matriz de confusión con etiquetas
+  * Gráfico de barras comparando F1-score por clase
+- Análisis técnico:
+  * Interpretar las métricas obtenidas
+  * Evaluar si hay overfitting o underfitting
+  * Justificar las decisiones tomadas (por ejemplo, elección de regularización o solver)

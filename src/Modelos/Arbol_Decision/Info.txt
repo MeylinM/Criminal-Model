@@ -1,0 +1,25 @@
+# Modelo: Árbol de Decisión
+Responsable: Meylin
+
+Objetivo:
+Evaluar el rendimiento de un modelo de Árbol de Decisión para clasificación multiclase.
+
+Contenido del notebook:
+- Breve descripción del modelo y su funcionamiento para clasificación.
+- Carga de datos procesados desde /data.
+- Configuración de hiperparámetros: criterion, max_depth, min_samples_split, etc.
+- Entrenamiento del modelo y optimización mediante GridSearchCV (si aplica).
+- Evaluación de métricas:
+  * Accuracy general
+  * Recall macro y weighted
+  * F1-score macro y weighted
+  * Matriz de confusión multiclase (normalizada)
+- Visualizaciones:
+  * Matriz de confusión
+  * Visualización del árbol (`plot_tree` o Graphviz)
+  * Importancia de características (feature importance)
+- Análisis técnico:
+  * Interpretar las métricas
+  * Analizar posibles signos de overfitting
+  * Comentar decisiones de configuración (profundidad, criterio, etc.)
+

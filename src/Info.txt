@@ -1,0 +1,13 @@
+# Carpeta SRC
+
+Contiene todo el código fuente del proyecto, dividido por fases.
+
+Subcarpetas:
+- EDA/ → notebooks de análisis exploratorio y preprocesamiento de datos.
+- Modelos/ → carpetas con los tres modelos clásicos de ML (Regresión Logística/Lineal, Árbol de Decisión, Random Forest) y la red neuronal.
+- Mejor_modelo/ → comparativa de métricas y elección del modelo final.
+
+Recomendaciones:
+- Cada notebook debe ser ejecutable completamente (Run All sin errores).
+- Comentar los bloques principales explicando QUÉ hace y POR QUÉ.
+- Incluir visualizaciones y análisis interpretativos.

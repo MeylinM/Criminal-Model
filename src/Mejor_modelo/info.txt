@@ -1,0 +1,59 @@
+# Carpeta MEJOR_MODELO
+
+En esta carpeta se realiza la comparación final de los cuatro modelos:
+1. Regresión Logística
+2. Árbol de Decisión
+3. Random Forest
+4. Red Neuronal (MLP)
+
+Objetivo:
+Analizar los resultados obtenidos por cada modelo, compararlos en base a métricas y seleccionar el mejor modelo con justificación técnica.
+Además, guardar una copia del modelo seleccionado como el modelo final del proyecto.
+
+Contenido principal:
+- comparativa_modelos.ipynb
+
+Este notebook debe:
+1. Cargar los archivos de métricas individuales:
+   - ../Modelos/Regresion_Logistica/metrics_regresion_logistica.csv
+   - ../Modelos/Arbol_Decision/metrics_arbol_decision.csv
+   - ../Modelos/Random_Forest/metrics_random_forest.csv
+   - ../Modelos/Redes_Neuronales/metrics_red_neuronal.csv
+
+2. Unirlos en un solo DataFrame (`metrics_finales.csv` o `.xlsx`).
+
+3. Calcular comparativas globales y generar visualizaciones:
+   - Gráfico de barras con F1-score macro por modelo.
+   - Tabla resumen de tiempos de entrenamiento y overfitting.
+
+4. Analizar y justificar cuál es el mejor modelo considerando:
+   - Métricas de rendimiento (accuracy, recall, f1).
+   - Complejidad y tiempo de entrenamiento.
+   - Interpretabilidad y estabilidad.
+   - Robustez frente a overfitting.
+
+## Guardado del modelo final
+
+Cada miembro debe guardar su mejor modelo entrenado en su propia carpeta
+
+Una vez seleccionado el mejor modelo global:
+1. En `comparativa_modelos.ipynb`, se copia el archivo del modelo ganador.
+2. Se guarda en esta carpeta como:
+   - `modelo_final.pkl` o `modelo_final.h5` (dependiendo del tipo)
+3. Opcionalmente, incluir un archivo `modelo_final_info.txt` con:
+   - Modelo elegido
+   - Hiperparámetros finales
+   - Métricas clave
+   - Justificación técnica
+
+Archivos esperados:
+- `metrics_finales.csv` → tabla comparativa de los cuatro modelos.
+- `modelo_final.pkl` o `.h5` → modelo elegido.
+- Visualizaciones comparativas (barras, heatmaps, etc.)
+- (Opcional) `modelo_final_info.txt` → resumen técnico del modelo ganador.
+
+¿Por qué este flujo?
+- Permite trabajar de forma colaborativa sin interferencias.
+- Centraliza resultados y el modelo definitivo en un solo lugar.
+- Facilita la revisión, carga y uso futuro del mejor modelo.
+- Cumple con los criterios de evaluación del reto, que piden comparar, justificar y elegir técnicamente el modelo final.

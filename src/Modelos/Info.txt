@@ -1,0 +1,70 @@
+# Carpeta MODELOS
+
+Contiene los notebooks y resultados de los cuatro modelos desarrollados en el proyecto:
+
+1. Regresión Logística --> Irati  
+2. Árbol de Decisión --> Meylin  
+3. Random Forest --> Giovani  
+4. Red Neuronal (MLP) --> Aitor y Guillermo
+
+Cada miembro trabaja en su carpeta correspondiente dentro de `Modelos/`.
+
+---
+
+## 📊 Resultados de los experimentos y métricas
+
+Cada modelo debe guardar sus métricas de rendimiento en un archivo CSV con la **misma estructura**, para permitir la comparación final en la carpeta `Mejor_modelo`.
+
+Nombre de los Archivos:
+    - metrics_regresion_logistica.csv
+    - metrics_arbol_decision.csv
+    - metrics_random_forest.csv
+    - metrics_red_neuronal.csv
+
+### Estructura estándar de las métricas
+| modelo | experimento | accuracy_train | accuracy_test | recall_macro | f1_macro | f1_weighted | tiempo_entrenamiento_seg | overfitting | observaciones |
+
+Ejemplo de fila:
+| Regresión Logística | baseline | 0.83 | 0.78 | 0.76 | 0.77 | 0.79 | 2.3 | No | Buen equilibrio entre clases |
+
+**Normas generales:**
+- Todos los compañeros deben mantener esta estructura para garantizar coherencia.
+- Las métricas deben incluir al menos *train* y *test*.
+- Añadir observaciones breves sobre los resultados (por ejemplo: "leve overfitting" o "mejora al aumentar neuronas").
+- Los archivos se usarán posteriormente en `Mejor_modelo/comparativa_modelos.ipynb` para generar una tabla comparativa unificada.
+
+
+## 💾 Guardado de modelos entrenados
+
+Cada miembro debe guardar su **mejor modelo entrenado** (ya optimizado) en su carpeta correspondiente, con nombres estandarizados:
+
+- `Modelos/Regresion_Logistica/modelo_logistico_mejor.pkl`  
+- `Modelos/Arbol_Decision/modelo_arbol_mejor.pkl`  
+- `Modelos/Random_Forest/modelo_rf_mejor.pkl`  
+- `Modelos/Redes_Neuronales/modelo_mlp_mejor.h5` (u otro formato compatible con Keras/TensorFlow)
+
+Esto permite:
+- Tener una copia funcional de cada modelo entrenado.
+- Facilitar el proceso de comparación final y elección del mejor modelo.
+- Reutilizar o desplegar el modelo ganador sin necesidad de reentrenar.
+
+---
+
+## 🧩 Flujo general de trabajo por modelo
+
+1. Entrenar y evaluar el modelo con diferentes configuraciones o experimentos.
+2. Registrar los resultados en el archivo `metrics_<modelo>.csv` o `.xlsx` con la estructura estándar.
+3. Guardar el mejor modelo entrenado en formato `.pkl` o `.h5`.
+4. Documentar los experimentos y decisiones en el notebook (con comentarios técnicos).
+5. Subir todos los archivos generados a GitHub para mantener la trazabilidad del trabajo.
+
+---
+
+## 📘 Justificación del enfoque
+
+Este flujo común garantiza:
+- **Consistencia:** todos los modelos reportan sus métricas en el mismo formato.  
+- **Reproducibilidad:** cualquier persona puede volver a ejecutar o cargar el modelo.  
+- **Colaboración eficiente:** el notebook de `Mejor_modelo` puede integrar automáticamente los resultados.  
+- **Cumplimiento del reto:** se documenta y justifica la elección del modelo final con base técnica, no solo en la métrica más alta.
+

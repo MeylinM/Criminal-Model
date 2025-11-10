@@ -1,0 +1,23 @@
+# Modelo: Random Forest
+Responsable: Giovani
+
+Objetivo:
+Evaluar un modelo de Random Forest para clasificación multiclase y compararlo con los otros modelos clásicos.
+
+Contenido del notebook:
+- Descripción breve del modelo y su principio de funcionamiento (ensamble de árboles).
+- Carga de datos procesados desde /data.
+- Configuración de hiperparámetros: n_estimators, max_depth, min_samples_split, max_features, random_state, etc.
+- Entrenamiento del modelo y ajuste con GridSearchCV si aplica.
+- Evaluación de métricas:
+  * Accuracy general
+  * Recall macro y weighted
+  * F1-score macro y weighted
+  * Matriz de confusión multiclase (normalizada)
+- Visualizaciones:
+  * Matriz de confusión
+  * Gráfico de importancia de características
+- Análisis técnico:
+  * Interpretar las métricas y la importancia de variables
+  * Evaluar la estabilidad y robustez del modelo
+  * Comentar posibles casos de overfitting y cómo mitigarlos
