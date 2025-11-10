@@ -3,7 +3,6 @@
 Aquí se desarrollan las fases 1 y 2 del reto:
 
 FASE 1 - Análisis Exploratorio:
-- Contextualizar el problema (qué, por qué, para quién).
 - Analizar valores nulos, duplicados, outliers y correlaciones.
 - Generar al menos 3 visualizaciones relevantes (boxplot, histogramas, matriz de correlaciones).
 - Comentar técnicamente las visualizaciones (qué se observa y cómo impacta en el modelo).
