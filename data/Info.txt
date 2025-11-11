@@ -4,8 +4,8 @@ Aquí se guardan los datos utilizados durante el proyecto.
 
 Estructura esperada:
 - Personal_Victimization_Original.csv → dataset original sin modificar.
-- X_train.csv, X_test.csv → conjuntos de entrenamiento y prueba antes del escalado.
-- X_train_scaled.csv, X_test_scaled.csv → conjuntos de entrenamiento y prueba escalados.
+- x_train.csv, x_test.csv → conjuntos de entrenamiento y prueba antes del escalado.
+- x_train_scaled.csv, x_test_scaled.csv → conjuntos de entrenamiento y prueba escalados.
 - y_train.csv, y_test.csv → etiquetas correspondientes a cada conjunto.
 
 Importante:
