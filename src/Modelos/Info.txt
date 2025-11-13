@@ -11,7 +11,7 @@ Cada miembro trabaja en su carpeta correspondiente dentro de `Modelos/`.
 
 ---
 
-## 📊 Resultados de los experimentos y métricas
+## Resultados de los experimentos y métricas
 
 Cada modelo debe guardar sus métricas de rendimiento en un archivo CSV con la **misma estructura**, para permitir la comparación final en la carpeta `Mejor_modelo`.
 
@@ -34,7 +34,7 @@ Ejemplo de fila:
 - Los archivos se usarán posteriormente en `Mejor_modelo/comparativa_modelos.ipynb` para generar una tabla comparativa unificada.
 
 
-## 💾 Guardado de modelos entrenados
+## Guardado de modelos entrenados
 
 Cada miembro debe guardar su **mejor modelo entrenado** (ya optimizado) en su carpeta correspondiente, con nombres estandarizados:
 
@@ -50,7 +50,7 @@ Esto permite:
 
 ---
 
-## 🧩 Flujo general de trabajo por modelo
+## Flujo general de trabajo por modelo
 
 1. Entrenar y evaluar el modelo con diferentes configuraciones o experimentos.
 2. Registrar los resultados en el archivo `metrics_<modelo>.csv` o `.xlsx` con la estructura estándar.
@@ -60,7 +60,7 @@ Esto permite:
 
 ---
 
-## 📘 Justificación del enfoque
+## Justificación del enfoque
 
 Este flujo común garantiza:
 - **Consistencia:** todos los modelos reportan sus métricas en el mismo formato.  
