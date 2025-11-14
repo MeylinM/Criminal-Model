@@ -16,11 +16,11 @@ Contenido del notebook:
 
 Evaluación de métricas:
 - Accuracy general
-- Recall macro y weighted
-- F1-score macro y weighted
+- Recall weighted
+- F1-score weighted
 - Matriz de confusión multiclase (normalizada)
 
 Visualizaciones:
-- Curvas de pérdida (loss) y exactitud (accuracy) por epochs.
+- Curvas de pérdida (loss) y exactitud (accuracy/F1-Score) por epochs.
 - Matriz de confusión final.
 - Comparación de métricas entre baseline y experimentos.

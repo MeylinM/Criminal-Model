@@ -36,24 +36,7 @@ Este notebook debe:
 
 Cada miembro debe guardar su mejor modelo entrenado en su propia carpeta
 
-Una vez seleccionado el mejor modelo global:
-1. En `comparativa_modelos.ipynb`, se copia el archivo del modelo ganador.
-2. Se guarda en esta carpeta como:
-   - `modelo_final.pkl` o `modelo_final.h5` (dependiendo del tipo)
-3. Opcionalmente, incluir un archivo `modelo_final_info.txt` con:
-   - Modelo elegido
-   - Hiperparámetros finales
-   - Métricas clave
-   - Justificación técnica
-
 Archivos esperados:
 - `metrics_finales.csv` → tabla comparativa de los cuatro modelos.
-- `modelo_final.pkl` o `.h5` → modelo elegido.
 - Visualizaciones comparativas (barras, heatmaps, etc.)
-- (Opcional) `modelo_final_info.txt` → resumen técnico del modelo ganador.
-
-¿Por qué este flujo?
-- Permite trabajar de forma colaborativa sin interferencias.
-- Centraliza resultados y el modelo definitivo en un solo lugar.
-- Facilita la revisión, carga y uso futuro del mejor modelo.
-- Cumple con los criterios de evaluación del reto, que piden comparar, justificar y elegir técnicamente el modelo final.
+- Visualizaciones del modelo final elegido

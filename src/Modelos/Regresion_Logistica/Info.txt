@@ -20,4 +20,3 @@ Contenido del notebook:
 - Análisis técnico:
   * Interpretar las métricas obtenidas
   * Evaluar si hay overfitting o underfitting
-  * Justificar las decisiones tomadas (por ejemplo, elección de regularización o solver)
